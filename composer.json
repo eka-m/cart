@@ -1,5 +1,5 @@
 {
-    "name": "jackiedo/cart",
+    "name": "eka/cart",
     "description": "A package used to create and manage carts (such as shopping, recently viewed, compared items...) in Laravel application.",
     "keywords": ["cart", "shoppingcart", "shopping", "laravel"],
     "license": "MIT",
@@ -23,16 +23,16 @@
             "src/Helpers/helpers.php"
         ],
         "psr-4": {
-            "Jackiedo\\Cart\\": "src"
+            "Eka\\Cart\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jackiedo\\Cart\\CartServiceProvider"
+                "Eka\\Cart\\CartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Jackiedo\\Cart\\Facades\\Cart"
+                "Cart": "Eka\\Cart\\Facades\\Cart"
             }
         }
     },
